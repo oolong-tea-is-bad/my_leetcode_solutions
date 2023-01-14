@@ -11,5 +11,3 @@ class Solution(object):
         if len(res) % 2 == 0:
             return (res[len(res)//2] + res[len(res)//2 - 1]) / 2.0
         return res[len(res) // 2]
-        
-        
