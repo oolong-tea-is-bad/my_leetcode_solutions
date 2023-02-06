@@ -13,10 +13,6 @@ class Solution(object):
     
     # Recursive BFS
     def anotherMaxDepth(self, root):
-        """
-        :type root: TreeNode
-        :rtype: int
-        """
         if not root:
             return 0
         
@@ -37,15 +33,11 @@ class Solution(object):
     
     # Iterative DFS
     def anotherMaxDepth(self, root):
-        """
-        :type root: TreeNode
-        :rtype: int
-        """
         if not root:
             return 0
         
         stack = [[root, 1]]
-        res = 0
+        res = 1
         
         while stack:
             node, depth = stack.pop()
