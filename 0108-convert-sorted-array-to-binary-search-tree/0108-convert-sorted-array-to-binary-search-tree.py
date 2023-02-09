@@ -4,14 +4,11 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+# NeetCode Solution: https://www.youtube.com/watch?v=0K0uCMYq5ng&t=517s&ab_channel=NeetCode
+
 class Solution(object):
     def sortedArrayToBST(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: TreeNode
-        """
-        # NeetCode Solution: https://www.youtube.com/watch?v=0K0uCMYq5ng&t=517s&ab_channel=NeetCode
-        
         def helper(l, r):
             # Base case where either the left or right subtrees
             # is iterated completely 
