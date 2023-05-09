@@ -9,8 +9,6 @@ class Solution:
                 k += 1
                 
                 nums[k-1] = nums[i]
-            else:
-                numDic[nums[i]] += 1 
 
         return k
         
