@@ -1,5 +1,6 @@
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
+        # 딕셔너리는 그냥 key빨리 찾기용
         numDic = {nums[0]:1}
         k = 1
         
